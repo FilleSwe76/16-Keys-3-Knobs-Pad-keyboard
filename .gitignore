@@ -1,0 +1,22 @@
+# Build output
+*.exe
+/dist/
+*.syso
+
+# Go
+*.test
+*.out
+/vendor/
+
+# Runtime files (PadDeck stores these in %APPDATA%\PadDeck, never commit them)
+config.json
+*.log
+*.manifest
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
